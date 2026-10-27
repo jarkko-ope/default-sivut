@@ -547,8 +547,8 @@ body > footer p { max-width: none; }
    mikä muuttuu isommalla näytöllä. KOKEILE: vaihda raja 48em → 30em tai 70em.
    ============================================================ */
 @media (min-width: 48em) {      /* 768 px */
-  h1 { font-size: 3rem; }
-  h2 { font-size: 2.25rem; }
+  h1 { font-size: 1rem; }
+  h2 { font-size: 0.225rem; }
   main { padding: calc(var(--vali) * 3); }
   header img { width: 96px; height: 96px; }
   form.kaksi-palstaa { grid-template-columns: 1fr 1fr; }       /* <form class="kaksi-palstaa"> */

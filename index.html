@@ -3,22 +3,24 @@
 <head>
     <!-- nämä kommentoidut tägit käydään läpi tulevalla oppitunnilla -->
 	<!-- <meta charset="utf-8"> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<title>Default sivu</title>
+     <link rel="stylesheet" href="css/tyyli.css">
+     <link rel="stylesheet" href="css/tyyli2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>p-Savo</title>
 </head>
 <body>
 <header>
     <!-- Logo on linkki etusivulle: a-elementin sisällä img. alt toimii linkkitekstinä. -->
     <a href="index.html"><img src="img/sakky.jpg" alt="Logo" width="100" height="100"></a>
 
-    <h1>Default sivu</h1>
+    <h1>p-Savon Junnujäkisjoukkue</h1>
     
 </header>
 
 
 <nav>
         <ul>
-            <li><a href="index.html">Etusivu</a></li> <!-- Tämä on kommentti -->
+            <li><a href="index.html" aria-current="page">Etusivu</a></li> <!-- Tämä on kommentti -->
             <li><a href="about.html">Tietoa</a></li> <!-- Tämä on tietoa sivulle linkki-->
             <li><a href="contact.html">Yhteystiedot</a></li> <!-- Tämä on yhteystiedot sivulle linkki -->
         </ul>
@@ -28,9 +30,52 @@
      MAIN · tämän sivun oma sisältö, yksi per sivu
      ============================================================ -->
 <main>
-    
+    <h1>Tämä on index.html -sivu eli etusivu</h1>
+    <div class="jakokahteen" id="etusivun-jakokahteen">
+         <div>
+            <h3>Kausi 2025-2026</h3>
+            <p>Otteluraportit: Lieksan Palloveikot vs p-Savo...</p>
+        </div>
+        <div>
+            <h3>Reissulive</h3>
+            <p>Kisamatka Lieksaan...</p></div>
+    </div>
+
+
+
+
+
     <!-- Tähän voit lisätä omaa sisältöä  -->
-    <p>Tämä on oletussivu, jota voi hyödyntää vapaasti.</p>
+    <p class="leipateksit_etusivu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet ligula finibus, pretium dui eu, aliquet orci. Curabitur accumsan massa nec elit rhoncus scelerisque.<br><br> Proin pellentesque in nunc et auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt elit at facilisis aliquet. Cras vulputate diam lacus, in tincidunt neque rutrum maximus. Nam justo arcu, rutrum vitae tristique non, ultricies vitae risus. Etiam hendrerit at purus eget bibendum. Curabitur tristique massa ac vehicula elementum. <br> <br>Nullam viverra euismod fringilla. Vivamus massa libero, lobortis eu eleifend ut, lobortis nec ex. Phasellus eget ante facilisis, congue justo vel, consequat dolor. Duis interdum, sapien vel iaculis porttitor, lorem turpis scelerisque ex, nec maximus quam turpis ut lacus.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Aliquam erat volutpat. Curabitur sit amet magna sed tellus egestas hendrerit. Aenean facilisis venenatis diam id imperdiet. Fusce mattis velit non leo tincidunt, auctor gravida tortor sollicitudin. In laoreet lorem leo, nec efficitur orci auctor ac. Nunc cursus ipsum a nisl viverra mattis eget ac elit. Quisque volutpat molestie turpis quis vulputate. Sed vestibulum feugiat massa sed egestas. Duis arcu ante, mattis eu tincidunt sed, hendrerit vel enim. <br><br>  Fusce lacinia ligula sed neque pharetra, sed euismod felis bibendum. Phasellus vel orci leo. Cras vitae eros a mauris vestibulum mollis in et sapien. Proin dictum nunc pharetra laoreet posuere. Morbi laoreet justo et dui varius hendrerit. Maecenas auctor molestie tellus et placerat.
+
+Quisque efficitur nisl fringilla mi consectetur lacinia. <br><br> Sed tincidunt tellus vitae leo dignissim, in cursus nunc gravida. Fusce rutrum lacus ante, non porta est gravida at.<br><br>  Aenean ut pellentesque orci. Donec molestie quam at nulla rhoncus, quis efficitur nibh rhoncus. Aliquam lacinia risus et lacus scelerisque dapibus. Maecenas lacinia hendrerit sem et lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vestibulum dui id nunc finibus, ac feugiat purus sollicitudin. Nulla facilisi. Suspendisse potenti. Aenean fermentum diam non auctor condimentum. In sollicitudin ante sapien, nec eleifend arcu egestas at. In euismod magna eu posuere pharetra. Phasellus id pharetra nulla.
+
+Phasellus nec fringilla urna. Pellentesque tempus, metus eget consequat aliquet, nunc ligula eleifend risus, ut malesuada elit enim ac lectus. Duis diam dolor, accumsan a eleifend eget, bibendum sed nisi. Phasellus at nisi pellentesque, hendrerit lectus at, semper velit. Aliquam cursus semper turpis, eu porttitor libero tincidunt non. Integer magna enim, pretium eget lectus et, convallis sodales diam. Suspendisse lacus justo, pulvinar vel aliquam a, interdum vitae eros. Quisque lacus est, sollicitudin vel tincidunt ut, vestibulum at odio. In vulputate congue massa at ultricies. Mauris fringilla neque non fringilla facilisis. <br> Nullam a mauris lacus.
+
+Praesent pellentesque a ante quis viverra. <br><br>  Vestibulum eget volutpat ligula,
+pretium porta dui. In hac habitasse platea dictumst. 
+Ut egestas neque volutpat fringilla ullamcorper. Curabitur suscipit odio vitae urna efficitur, at ornare nibh euismod. 
+Sed placerat, turpis sit amet aliquam tristique, sem lacus suscipit ante, non maximus tortor nibh in nulla. Nullam blandit bibendum dui ut luctus. 
+Aenean interdum in tellus quis accumsan. Cras sed eros id ex ornare iaculis at nec eros. Nullam porta orci sed sapien ultricies, aliquet hendrerit mi eleifend. 
+Quisque at magna gravida, tempus nunc id, facilisis diam.
+</p>
+      
+
+
+
+
+
+
+
+
+
+
+
+
 
 </main>
 
